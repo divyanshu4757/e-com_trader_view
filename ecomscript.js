@@ -18,7 +18,7 @@ form.addEventListener('submit',(e) => {
     e.preventDefault();
 
     axios({
-        method:'put',
+        method:'post',
         url: `https://crudcrud.com/api/b02f871336684426bf9d90c35ac8f05d/ecommerce 
         `,
         data:{
